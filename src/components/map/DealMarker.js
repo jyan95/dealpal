@@ -59,7 +59,7 @@ class DealMarker extends React.Component {
           return null
         }
       }))
-    }  
+    }
   }
 
   render(){
@@ -74,11 +74,11 @@ class DealMarker extends React.Component {
           </Typography>
           <Grid container direction="row" justify="center" alignItems="center" spacing={2}>
             <Grid item sm={6}>
-            {!this.state.following ? <Button size="small" variant="outlined" color="primary" onClick={() => this.followDeal(deal)}>
+            {!!token ? !this.state.following ? <Button size="small" variant="outlined" color="primary" onClick={() => this.followDeal(deal)}>
               follow deal
             </Button> : <Button size="small" variant="outlined" color="primary" disabled>
               follow deal
-            </Button> }
+            </Button> : null}
             </Grid>
             <Grid item sm={6}>
             <Button size="small" variant="outlined" onClick={() => this.openDeal(deal)}>
