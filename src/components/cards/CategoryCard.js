@@ -10,7 +10,7 @@ const CategoryCard = (props) => {
   // console.log(this.props.data);
   // conditionally render the follow button
   return(
-    <CardActionArea href={`/dealpal/categories/${slug}`}>
+    <CardActionArea href={`/categories/${slug}`}>
       <CardContent>
         <Typography gutterBottom component='h2'>
           {name.toUpperCase()}

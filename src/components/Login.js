@@ -109,7 +109,7 @@ const Login = (props) => {
           </Button>
           <Grid container justify='center'>
             <Grid item>
-              <Link href="/dealpal/signup" variant="body2">
+              <Link href="/signup" variant="body2">
                 Don't have an account? Sign Up
               </Link>
             </Grid>

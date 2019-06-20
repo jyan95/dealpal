@@ -30,17 +30,17 @@ const Navbar = () => {
         <Toolbar>
           <Grid container direction='row' justify='space-evenly' alignItems='center'>
             <Grid item>
-              <Button href='/dealpal/' color='inherit'>
+              <Button href='/' color='inherit'>
                 <MapIcon/>
               </Button>
             </Grid>
             <Grid item>
-              <Button href='/dealpal/categories' color='inherit'>
+              <Button href='/categories' color='inherit'>
                 <SearchIcon/>
               </Button>
             </Grid>
             <Grid item>
-              <Button href='/dealpal/your-deals' color='inherit'>
+              <Button href='/your-deals' color='inherit'>
                 <ShoppingBasket/>
               </Button>
             </Grid>

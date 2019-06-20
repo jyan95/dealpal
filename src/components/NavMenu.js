@@ -12,17 +12,17 @@ function logoutClick() {
   console.log('clicking logout');
   localStorage.clear();
   // handleClose();
-  window.open('/dealpal/login','_self');
+  window.open('/login','_self');
 }
 
 function loginClick() {
   // handleClose();
   console.log('clicking login');
-  window.open('/dealpal/login','_self');
+  window.open('/login','_self');
 }
 
 function profileClick() {
-  window.open('/dealpal/profile/','_self');
+  window.open('/profile/','_self');
 }
 
 const NavMenu = () => {
