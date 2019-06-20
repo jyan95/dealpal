@@ -22,7 +22,11 @@ function loginClick() {
 }
 
 function profileClick() {
-  window.open('/profile/','_self');
+  if(!!token){
+    window.open('/profile/','_self');
+  } else {
+    window.open('/login','_self');
+  }
 }
 
 const NavMenu = () => {
