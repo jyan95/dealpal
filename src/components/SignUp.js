@@ -128,8 +128,9 @@ const SignUp = (props) => {
           </Grid>
         </form>
       </div>
-      <Box mt={5}>
-      </Box>
+      <br/>
+      <br/>
+      <br/>
     </Container>
   );
 }
