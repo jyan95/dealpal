@@ -11,7 +11,7 @@ const dealMarker = new L.Icon({
   iconUrl: require('../../assets/userAdded.png'),
   iconRetinaUrl: require('../../assets/userAdded.png'),
   popupAnchor: [0,-20],
-  iconSize: [15,20]
+  iconSize: [20,20]
 })
 
 class UserAddedDealMarker extends React.Component {
