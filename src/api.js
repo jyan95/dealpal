@@ -139,11 +139,11 @@ const login = (formData) => {
     },
     body: JSON.stringify(formData)
   })
-  .then(r => r.json())
-  // .then(data => {
-  //   const { token, user } = data;
-  //   localStorage.setItem('token', token);
-  // })
+  // .then(r => r.json())
+  // // .then(data => {
+  // //   const { token, user } = data;
+  // //   localStorage.setItem('token', token);
+  // // })
 }
 
 const signup = (formData) => {
