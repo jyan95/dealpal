@@ -8,8 +8,8 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
 const dealMarker = new L.Icon({
-  iconUrl: require('../../assets/redPointer.svg'),
-  iconRetinaUrl: require('../../assets/redPointer.svg'),
+  iconUrl: require('../../assets/userAdded.png'),
+  iconRetinaUrl: require('../../assets/userAdded.png'),
   popupAnchor: [0,-20],
   iconSize: [15,20]
 })
